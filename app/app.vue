@@ -15,7 +15,7 @@
 
 <template>
 	<div class="shop">
-		<h1>我是APP.VUE组件</h1>
+		<h1>我的购物车：</h1>
 		<div>
 			<table v-for="item in list">
 				<vui-zujian :item="item"></vui-zujian>
